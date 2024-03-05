@@ -88,6 +88,7 @@ li:hover{
     display: none;
     box-shadow: 0 0 3px  red;
 }
+
 #sidebar-toggle-label {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: lime;
