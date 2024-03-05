@@ -97,10 +97,12 @@ li:hover{
     font-size: 24px;
     padding: 10px;
 }
+
 #sidebar-toggle-label :hover{
     background-color: lime;
     color: black;
 }
+
 #sidebar-toggle:checked + #sidebar-toggle-label + .sidebar {
     width: 0px;
 }
