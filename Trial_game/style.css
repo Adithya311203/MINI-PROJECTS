@@ -1,0 +1,95 @@
+body{
+    color:white;
+    padding: 10% 35%;
+    background-color: black;}
+#game{
+    margin: 15px;
+    text-align: center;
+    border:solid;
+    height:fit-content;
+    border-radius: 5px;
+    border-color: blue;
+    background-image: linear-gradient(black,black);
+}
+
+
+#xpstat{
+    color:lime;
+}
+
+#hpstat{
+    color:red;
+}
+
+#goldstat{
+    color:gold;
+}
+#stats{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:30px;
+
+    border-style: solid;
+    border-width: 1px 2px;
+    border-left: none;
+    border-right: none;
+    
+}
+#controls{
+    border:solid;
+    border-width: 1px 2px;
+    border-radius: 5px;
+}
+#button1{
+    width: 32.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color:gold;
+    background-color: black;
+}
+#button2{
+    width: 32.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color:cyan;
+    background-color: black;
+}
+#button3{
+    width: 32.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color:orangered;
+    background-color: black;
+    
+}
+#button1:hover{
+    color:black;
+    background-image:linear-gradient(lightyellow,yellow,gold);
+    box-shadow: 0 0 30px gold;
+    transition-duration: 0.4s;
+}
+#button2:hover{
+    color:black;
+    background-image: linear-gradient(skyblue,cyan,blue);
+    box-shadow: 0 0 30px cyan;
+    transition-duration: 0.4s;
+}
+#button3:hover{
+    color:black;
+    background-image: linear-gradient(yellow,gold,orange,darkorange,red);
+    box-shadow: 0 0 30px orangered;
+    transition-duration: 0.4s;
+}
+#monsterStats{
+    display: none;
+}
+#text{
+    height: 100px;
+    border:double;
+    font-style: italic;
+    font-size: larger;
+    color: white;
+    background-image: linear-gradient(black,rgb(67, 67, 67),black);
+    border-width: 5px 5px;
+    border-radius: 5px;
+}
