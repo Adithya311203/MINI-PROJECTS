@@ -85,6 +85,8 @@ body{
 }
 #monsterStats{
     display: none;
+    background-image: linear-gradient(90deg, pink,violet,magenta,rgb(150, 0, 150),purple,darkblue);
+    color: black;
 }
 #text{
     height: 100px;
