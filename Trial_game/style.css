@@ -3,6 +3,7 @@ body{
     padding: 10% 35%;
     background-color: black;}
 #game{
+    box-shadow: 0 0 30px blue;
     margin: 15px;
     text-align: center;
     border:solid;
@@ -12,6 +13,11 @@ body{
     background-image: linear-gradient(black,black);
 }
 
+#controls{
+    height: max-content;
+    white-space-collapse: break-;
+    border: none;
+}
 
 #xpstat{
     color:lime;
@@ -39,26 +45,27 @@ body{
     border:solid;
     border-width: 1px 2px;
     border-radius: 5px;
+    display: flex;
 }
 #button1{
-    width: 32.6%;
-    height:fit-content;
+    width: 33.4%;
+    min-height:40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
     color:gold;
     background-color: black;
 }
 #button2{
-    width: 32.6%;
-    height:fit-content;
+    width: 33.4%;
+    min-height:100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
     color:cyan;
     background-color: black;
 }
 #button3{
-    width: 32.6%;
-    height:fit-content;
+    width: 33.4%;
+    min-height:inherit;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
     color:orangered;
@@ -67,18 +74,22 @@ body{
 }
 #button1:hover{
     color:black;
+    font-size: large;
     background-image:linear-gradient(lightyellow,yellow,gold);
     box-shadow: 0 0 30px gold;
     transition-duration: 0.4s;
 }
 #button2:hover{
     color:black;
+    font-size: large;
     background-image: linear-gradient(skyblue,cyan,blue);
     box-shadow: 0 0 30px cyan;
     transition-duration: 0.4s;
 }
 #button3:hover{
     color:black;
+    font-size: large;
+    min-height:inherit;
     background-image: linear-gradient(yellow,gold,orange,darkorange,red);
     box-shadow: 0 0 30px orangered;
     transition-duration: 0.4s;
@@ -109,5 +120,28 @@ body{
     background-image: linear-gradient(black,rgb(67, 67, 67),black);
     border-width: 5px 5px;
     border-radius: 5px;
-
 }
+
+h1{
+    text-align: center;
+    padding-bottom: 30px ;
+    padding-top: 20px;
+    margin-top:none;
+    background-image: linear-gradient(90deg,yellow,gold,orange,orangered,red,red);
+    box-shadow: 0 0 100px yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 50px;
+    animation: shadowAnimation 1.2s infinite alternate;
+    
+}
+@keyframes shadowAnimation {
+    0% {box-shadow: 0 0 90px red;}
+    25% {box-shadow: 0 0 100px orangered;}
+    50% {box-shadow: 0 0 110px orange;}
+    75% {box-shadow: 0 0 120px gold;}
+    100%{box-shadow: 0 0 130px yellow;}
+}
+
+

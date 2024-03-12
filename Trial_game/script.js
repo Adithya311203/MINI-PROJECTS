@@ -23,7 +23,7 @@ const locations=[{
     text: "You are in the town square"},
 {
     name:"store",
-    "button text":["Buy 10 Health [10 GOLD]","Buy Weapon [30 GOLD]","Go to town Square" ],
+    "button text":["Buy 10 Health [10 GOLD]","Buy Weapon\n[30 GOLD]","Go to town Square" ],
     "button functions":[buyHealth,buyWeapon,goTown],
     text:"You are in the store."},
 {
