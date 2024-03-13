@@ -105,6 +105,27 @@ body{
     color:lime;
     font-weight: bolder;
 }
+
+#dragon{
+    display: none;
+    padding-left:20%;
+    padding-right: auto;
+}
+
+#fangedbeast{
+    display: none;
+    width:130px;
+    padding: 10% 34%;
+    padding-right: auto;
+}
+
+#slime{
+    display: none;
+    width:130px;
+    padding: 10% 34%;
+    padding-right: auto;
+}
+
 #monsterName{
     color:rgb(0, 255, 213);
 }

@@ -103,6 +103,9 @@ function update(location){
 
 
 function goTown(){
+    dragon.style.display="none";
+    fangedbeast.style.display="none";
+    slime.style.display="none";
     update(locations[0]);
 }
 
@@ -159,16 +162,19 @@ function buyHealth(){
 
 function fightSlime(){
     fighting=0;
+    slime.style.display="block";
     goFight();
 }
 
 function fightBeast(){
     fighting=1;
+    fangedbeast.style.display="block";
     goFight();
 }
 
 function fightDragon(){
     fighting=2;
+    dragon.style.display="block";
     goFight();
 }
 
@@ -192,9 +198,15 @@ function attack(){
     hpstat.innerText=health;
     monsterHealthText.innerText=monsterHealth;
     if (health<=0){
+        dragon.style.display="none";
+        slime.style.display="none";
+        fangedbeast.style.display="none";
         lose();
     }
     else if(monsterHealth<=0){
+        dragon.style.display="none";
+        slime.style.display="none";
+        fangedbeast.style.display="none";
         (fighting===2)?wingame():defeatMonster();
     }
 }
