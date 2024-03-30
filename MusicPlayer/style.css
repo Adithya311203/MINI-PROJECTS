@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    padding: 10% 35% ;
+    
+}
+
+.entire{
+    display: block;
+    background-image: linear-gradient(yellow,orange,red);
+    
+    border: solid #8d8585 2px;
+    
+    
+}
+
+.menu{
+    margin: 0px;
+    padding: 7px;
+}
+
+.card{
+    text-align: center;
+}
