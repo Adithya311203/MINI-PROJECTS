@@ -7,10 +7,16 @@ body{
 .entire{
     display: block;
     background-image: linear-gradient(yellow,orange,red);
-    
+    width: 450px;
+    height: 600px;
     border: solid #8d8585 2px;
     
     
+}
+
+img{
+    border-radius: 50%;
+    box-shadow:0 0 15px cyan;
 }
 
 .menu{
