@@ -25,6 +25,11 @@ img{
     padding: 7px;
 }
 
+.card{
+    text-align: center;
+
+}
+
 .name{
     padding-top: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,10 +41,7 @@ img{
     font-size: 20px;
     padding-bottom: 50px;
 }
-.card{
-    text-align: center;
 
-}
 
 button{
     border-radius: 50%;
