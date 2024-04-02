@@ -52,6 +52,7 @@ button{
 button:hover{
     background-image: linear-gradient(black,grey,black);
     color: white;
+    box-shadow: 0 0 15px black;
 
 }
 
