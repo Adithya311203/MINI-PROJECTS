@@ -59,3 +59,21 @@ button:hover{
 #play{
     margin: 0 30px;
 }
+.playbar{
+    padding-bottom: 25px;
+}
+input{
+    -webkit-appearance: none;
+    width: 400px;
+    height: 5px;
+    margin: 0 5%;
+    
+    background-image: linear-gradient(90deg,blue,cyan,lime,green);
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+
+input::-webkit-slider-thumb{
+    border-radius: 1px;
+}
