@@ -2,6 +2,7 @@ body{
     background-color: black;
     padding: 10% 35% ;
     
+    
 }
 
 .entire{
@@ -21,13 +22,13 @@ img{
 }
 
 .menu{
-    margin: 15px 0;
-    padding: 7px;
+    
 }
 
 .card{
     text-align: center;
 
+    width: 100%;z
 }
 
 .name{
@@ -61,10 +62,12 @@ button:hover{
 }
 .playbar{
     padding-bottom: 25px;
+    width: 100%;
+    position: relative;
 }
 input{
     -webkit-appearance: none;
-    width: 400px;
+    width: 100%;
     height: 5px;
     margin: 0 5%;
     
@@ -75,5 +78,10 @@ input{
 }
 
 input::-webkit-slider-thumb{
-    border-radius: 1px;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-image: radial-gradient(silver,grey,black,black,black);
+box-shadow: -400px 0 0 400px green ;
 }
