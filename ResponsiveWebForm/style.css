@@ -1,6 +1,8 @@
 body{
-    background-image: linear-gradient(white, ivory, skyblue);
+    background-image: url(https://giffiles.alphacoders.com/144/14466.gif);
     padding-top:5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding-left: 40%;
     padding-right: 35%;
 }
@@ -19,7 +21,7 @@ form{
     width: 340px;
     height:480px;
     text-align: center;
-    
+    box-shadow:  0 0 5px white;
 }
 
 input{
